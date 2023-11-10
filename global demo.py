@@ -71,7 +71,7 @@ Output:
 
 
 import streamlit as st
-st.header('ITR Entity Extractor')
+st.header('Form 16 Entity Extractor')
 question=st.text_input('Enter the entity')
 button=st.button('Generate')
 
