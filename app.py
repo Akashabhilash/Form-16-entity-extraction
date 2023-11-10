@@ -15,7 +15,7 @@ def query_discovery(input):
     discovery.set_service_url(discovery_url)
 
     response = discovery.query(
-        project_id='0f1085c1-29eb-4fd3-b2fd-6553944cfce3',
+        project_id=os.getenv('WD_PROJECT_ID',None),
         natural_language_query= input,
         count=2
     ).get_result()
