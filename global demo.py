@@ -28,8 +28,7 @@ def query_discovery(input):
     return concatenated_text
 
 
-def get_credentials():
-	return 
+
 
 
 def watsonx_call(question,discovery):
